@@ -1,0 +1,75 @@
+{
+  "organization": {
+    "name": "Cóatl Baloncesto",
+    "slogan": "Más que un juego. Una comunidad.",
+    "whatsapp_link": "https://wa.me/527208054403?text=Hola!%20Me%20interesa%20inscribirme%20a%20Cóatl%20Baloncesto.",
+    "facebook_url": "https://www.facebook.com/CoatlBaloncesto",
+    "youtube_url": "https://www.youtube.com/channel/UC6bPwRG60eYp4u9yjP3Sikg",
+    "instagram_url": "https://www.instagram.com/coatlbaloncesto"
+  },
+  "categories": [
+    {
+      "name": "Mini",
+      "ages": "6-9 años",
+      "description": "Iniciación lúdica, desarrollo psicomotriz y fundamentos básicos del básquetbol."
+    },
+    {
+      "name": "Infantil",
+      "ages": "10-13 años",
+      "description": "Desarrollo técnico, fundamentos individuales y nociones de juego en equipo."
+    },
+    {
+      "name": "Juvenil",
+      "ages": "14-17 años",
+      "description": "Táctica de juego, preparación física competitiva y entendimiento estratégico."
+    },
+    {
+      "name": "Adultos",
+      "ages": "18+ años",
+      "description": "Entrenamiento libre, acondicionamiento y representativos de liga local."
+    }
+  ],
+  "schedules": [
+    {
+      "category": "Mini / Infantil",
+      "days": "Martes y Jueves",
+      "time": "16:30 - 18:00"
+    },
+    {
+      "category": "Juvenil / Adultos",
+      "days": "Martes y Jueves",
+      "time": "18:00 - 19:30"
+    }
+  ],
+  "results": [
+    {
+      "opponent": "Gamos",
+      "our_score": 79,
+      "their_score": 55,
+      "date": "2026-06-07",
+      "status": "Victoria"
+    },
+    {
+      "opponent": "Hawks",
+      "our_score": 78,
+      "their_score": 72,
+      "date": "2026-06-04",
+      "status": "Victoria"
+    }
+  ],
+  "coaches": [
+    {
+      "name": "Saúl",
+      "role": "Head Coach",
+      "experience": "Cofundador de Cóatl. Especialista en táctica y desarrollo juvenil con más de 8 años formando deportistas."
+    }
+  ],
+  "sedes": [
+    {
+      "name": "Cancha Gustavo A. Madero",
+      "address": "Av. Principal esq. Calle Deportes, Gustavo A. Madero, CDMX",
+      "parking": "Estacionamiento disponible dentro del deportivo.",
+      "transport": "A 10 minutos del Metro/Metrobús cercano."
+    }
+  ]
+}
