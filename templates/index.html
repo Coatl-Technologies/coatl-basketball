@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.name | default('Cóatl Baloncesto') }} — {{ site.slogan | default('Más que un juego. Una comunidad.') }}</title>
+    <meta name="description" content="Página oficial de la comunidad deportiva de Cóatl Baloncesto en la Gustavo A. Madero, CDMX. Entrenamientos para niños, jóvenes y adultos.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Geist:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <!-- Background grid telemetry effect -->
+    <div class="telemetry-grid"></div>
+
+    <!-- Navigation Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#" class="brand-logo" id="header-logo">
+                <span class="logo-accent">CÓATL</span> BALONCESTO
+            </a>
+            <nav class="nav-links">
+                <a href="#historia">Nuestra Historia</a>
+                <a href="#horarios">Categorías</a>
+                <a href="#resultados">Resultados</a>
+                <a href="#coaches">Entrenadores</a>
+                <a href="#galeria">Galería</a>
+            </nav>
+            <a href="{{ site.whatsapp_link }}" target="_blank" class="btn btn-primary btn-nav-cta" id="nav-cta-whatsapp">
+                <i class="fa-brands fa-whatsapp"></i> Inscribirme
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="inicio">
+            <div class="hero-content">
+                <div class="tagline-container">
+                    <span class="tagline-badge">COMUNIDAD ACTIVA GAM</span>
+                </div>
+                <h1 class="hero-title">{{ site.name | default('Cóatl Baloncesto') }}</h1>
+                <p class="hero-subtitle">{{ site.slogan | default('Más que un juego. Una comunidad.') }}</p>
+                <div class="hero-ctas">
+                    <a href="{{ site.whatsapp_link }}" target="_blank" class="btn btn-primary btn-lg" id="hero-cta-primary">
+                        <i class="fa-brands fa-whatsapp"></i> Iniciar Entrenamiento
+                    </a>
+                    <a href="#historia" class="btn btn-secondary btn-lg" id="hero-cta-secondary">
+                        Conoce la Historia
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <!-- Visual HUD stats dashboard representation -->
+                <div class="hud-dashboard glass-card">
+                    <div class="hud-header">
+                        <span class="hud-dot"></span>
+                        <span class="hud-title">TELEMETRÍA DE LA COMUNIDAD</span>
+                    </div>
+                    <div class="hud-stats-grid">
+                        <div class="hud-stat">
+                            <span class="stat-value text-cyan">6,700+</span>
+                            <span class="stat-label">SEGUIDORES FB</span>
+                        </div>
+                        <div class="hud-stat">
+                            <span class="stat-value text-orange">4</span>
+                            <span class="stat-label">CATEGORÍAS</span>
+                        </div>
+                        <div class="hud-stat">
+                            <span class="stat-value text-cyan">1.6k+</span>
+                            <span class="stat-label">SUSCRIPTORES YT</span>
+                        </div>
+                        <div class="hud-stat">
+                            <span class="stat-value text-orange">100%</span>
+                            <span class="stat-label">ENTREGA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Historia Section -->
+        <section class="historia-section" id="historia">
+            <div class="section-container">
+                <h2 class="section-title">Nuestra Historia <span class="text-orange">&</span> Filosofía</h2>
+                
+                <div class="historia-grid">
+                    <!-- Historia -->
+                    <div class="glass-card story-card">
+                        <div class="card-tag">HISTORIA</div>
+                        <h3>{{ site.history.title | default('Nuestra Historia') }}</h3>
+                        <p>{{ site.history.content }}</p>
+                    </div>
+
+                    <!-- Filosofia -->
+                    <div class="glass-card story-card highlighted-border-cyan">
+                        <div class="card-tag tag-cyan">VALORES</div>
+                        <h3>{{ site.philosophy.title | default('Nuestra Filosofía') }}</h3>
+                        <p>{{ site.philosophy.content }}</p>
+                    </div>
+
+                    <!-- Comunidad -->
+                    <div class="glass-card story-card highlighted-border-orange">
+                        <div class="card-tag">FAMILIA</div>
+                        <h3>{{ site.community.title | default('Nuestra Comunidad') }}</h3>
+                        <p>{{ site.community.content }}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Horarios / Categorías Section -->
+        <section class="horarios-section" id="horarios">
+            <div class="section-container">
+                <h2 class="section-title">Categorías <span class="text-cyan">&</span> Horarios</h2>
+                <div class="schedules-grid">
+                    {% for item in schedules %}
+                    <div class="glass-card schedule-card">
+                        <div class="schedule-header">
+                            <span class="category-name">{{ item.category }}</span>
+                            <span class="category-ages badge-cyan">{{ item.ages }}</span>
+                        </div>
+                        <div class="schedule-body">
+                            <p class="schedule-focus">{{ item.focus }}</p>
+                            <div class="schedule-time-meta">
+                                <div class="meta-item">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span>{{ item.days }}</span>
+                                </div>
+                                <div class="meta-item">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <span>{{ item.time }}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        <!-- Resultados Recientes Section -->
+        <section class="resultados-section" id="resultados">
+            <div class="section-container">
+                <h2 class="section-title">Últimos Resultados</h2>
+                <div class="results-grid">
+                    {% for result in results %}
+                    <div class="glass-card result-card">
+                        <div class="result-date">{{ result.date }}</div>
+                        <div class="scoreboard">
+                            <div class="team team-home">
+                                <span class="team-name">Cóatl</span>
+                                <span class="score-value {% if result.our_score > result.their_score %}text-orange{% endif %}">{{ result.our_score }}</span>
+                            </div>
+                            <div class="scoreboard-vs">VS</div>
+                            <div class="team team-away">
+                                <span class="score-value {% if result.their_score > result.our_score %}text-orange{% endif %}">{{ result.their_score }}</span>
+                                <span class="team-name">{{ result.opponent }}</span>
+                            </div>
+                        </div>
+                        <div class="result-status-badge {% if result.status == 'Victoria' %}status-win{% else %}status-loss{% endif %}">
+                            {{ result.status }}
+                        </div>
+                        <p class="result-highlight">{{ result.highlight }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        <!-- Entrenadores Section -->
+        <section class="coaches-section" id="coaches">
+            <div class="section-container">
+                <h2 class="section-title">Cuerpo Técnico</h2>
+                <div class="coaches-grid">
+                    {% for coach in coaches %}
+                    <div class="glass-card coach-card">
+                        <div class="coach-avatar-placeholder">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                        <div class="coach-info">
+                            <h3 class="coach-name">{{ coach.name }}</h3>
+                            <span class="coach-role">{{ coach.role }}</span>
+                            <span class="coach-specialty badge-cyan">{{ coach.specialty }}</span>
+                            <p class="coach-experience">{{ coach.experience }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        <!-- Galería Section -->
+        <section class="galeria-section" id="galeria">
+            <div class="section-container">
+                <h2 class="section-title">Comunidad en Acción</h2>
+                <div class="gallery-grid">
+                    {% for photo in gallery %}
+                    <div class="glass-card gallery-card">
+                        <div class="gallery-img-container">
+                            <img src="{{ photo.url }}" alt="{{ photo.title }}" class="gallery-img" loading="lazy">
+                        </div>
+                        <div class="gallery-info">
+                            <h4>{{ photo.title }}</h4>
+                            <p>{{ photo.description }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Final Section -->
+        <section class="cta-final-section">
+            <div class="cta-container glass-card">
+                <h2>¿Listo para dejarlo todo en la cancha?</h2>
+                <p>Únete a entrenar con la comunidad más apasionada de baloncesto en la GAM. Las inscripciones están abiertas todo el año para todas las edades.</p>
+                <a href="{{ site.whatsapp_link }}" target="_blank" class="btn btn-primary btn-xl" id="final-cta-whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i> Hablar con un Coach
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>CÓATL BALONCESTO</h3>
+                <p>{{ site.slogan | default('Más que un juego. Una comunidad.') }}</p>
+            </div>
+            <div class="footer-socials">
+                <a href="{{ site.facebook_url }}" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="{{ site.instagram_url }}" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="{{ site.youtube_url }}" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Cóatl Technologies. Todos los derechos reservados. | Diseñado bajo la filosofía <i>Show The Work</i>.</p>
+        </div>
+    </footer>
+</body>
+</html>

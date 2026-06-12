@@ -46,35 +46,15 @@ El objetivo del MVP es permitir que cualquier padre de familia, jugador o intere
 
 ---
 
-## 📋 Estructura de Datos (JSON-Driven)
+## 📋 Estructura de Datos (CMS Ultraligero)
 
-En lugar de arrancar con base de datos de jugadores y fórmulas de eficiencia, el archivo `basketball_data.json` gestiona la información que genera valor inmediato a la comunidad:
+Para facilitar el mantenimiento sin la complejidad de bases de datos o paneles de administración, el contenido se almacena de forma modular en archivos JSON dentro del directorio `content/`:
 
-```json
-{
-  "organization": {
-    "name": "Cóatl Baloncesto",
-    "slogan": "Más que un juego. Una comunidad.",
-    "whatsapp_link": "https://wa.me/...",
-    "facebook_url": "https://www.facebook.com/CoatlBaloncesto"
-  },
-  "categories": [
-    {"name": "Mini", "ages": "6-9 años", "description": "Iniciación y fundamentos básicos."},
-    {"name": "Infantil", "ages": "10-13 años", "description": "Desarrollo técnico y juego en equipo."},
-    {"name": "Juvenil", "ages": "14-17 años", "description": "Estrategia, táctica y competencia."},
-    {"name": "Adultos", "ages": "18+ años", "description": "Entrenamiento libre y representativo."}
-  ],
-  "schedules": [
-    {"day": "Lunes y Miércoles", "time": "17:00 - 19:00", "category": "Infantil/Juvenil"}
-  ],
-  "results": [
-    {"opponent": "Gamos", "our_score": 79, "their_score": 55, "date": "2026-06-07"}
-  ],
-  "sedes": [
-    {"name": "Cancha Principal", "address": "Gustavo A. Madero, CDMX", "map_url": ""}
-  ]
-}
-```
+* **`content/site.json`**: Configuración general del sitio, enlaces de contacto, y las secciones narrativas de historia, filosofía y comunidad.
+* **`content/schedules.json`**: Días, horarios, rango de edad y enfoque por cada una de las categorías.
+* **`content/results.json`**: Marcadores y momentos destacados de encuentros recientes.
+* **`content/coaches.json`**: Perfiles, especialidades y biografía de los entrenadores.
+* **`content/gallery.json`**: Enlaces de imágenes destacadas de la comunidad deportiva.
 
 ---
 

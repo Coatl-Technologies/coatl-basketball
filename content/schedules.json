@@ -1,0 +1,30 @@
+[
+  {
+    "category": "Mini",
+    "ages": "6-9 años",
+    "days": "Martes y Jueves",
+    "time": "16:30 - 18:00",
+    "focus": "Fundamentos psicomotrices, bote, pase y recreación activa."
+  },
+  {
+    "category": "Infantil",
+    "ages": "10-13 años",
+    "days": "Martes y Jueves",
+    "time": "16:30 - 18:00",
+    "focus": "Técnica individual refinada, mecánica de tiro y conceptos defensivos básicos."
+  },
+  {
+    "category": "Juvenil",
+    "ages": "14-17 años",
+    "days": "Martes y Jueves",
+    "time": "18:00 - 19:30",
+    "focus": "Táctica grupal, transición defensiva/ofensiva y preparación física competitiva."
+  },
+  {
+    "category": "Adultos",
+    "ages": "18+ años",
+    "days": "Martes y Jueves",
+    "time": "18:00 - 19:30",
+    "focus": "Acondicionamiento físico avanzado, juego libre guiado y representativos de liga local."
+  }
+]
