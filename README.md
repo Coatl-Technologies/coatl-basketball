@@ -63,7 +63,17 @@ Para facilitar el mantenimiento sin la complejidad de bases de datos o paneles d
 ## 🗺️ Roadmap de Entrega
 
 * **Fase 1: Landing Funcional & WhatsApp Integration:** Despliegue de la página de inicio en dark mode con diseño responsive y botón de contacto.
-* **Fase 2: Datos Dinámicos (JSON):** Carga dinámica de horarios, sedes y categorías desde `basketball_data.json`.
-* **Fase 3: Resultados & Multimedia:** Visualización de marcadores de partidos recientes y carrusel de videos de YouTube/Instagram.
+* **Fase 2: Datos Dinámicos (JSON):** Carga dinámica de horarios, sedes y categorías desde `content/` modulares.
+* **Fase 3: Resultados & Multimedia:** Visualización de marcadores de partidos recientes y carrusel de imágenes/videos de la comunidad.
 * **Fase 4: Formulario de Pre-Inscripción:** Captura de prospectos locales para derivar a WhatsApp.
-* **Fase 5: Rosters & Estadísticas (Futuro):** Perfil de jugadores y tablas de desempeño cuando la base de datos esté integrada.
+* **Fase 5: Integración de Dominios (DNS):** Vinculación final al dominio oficial `coatlbaloncesto.com.mx`.
+
+---
+
+## 🤝 Colaboración & Documentación
+
+Este proyecto está estructurado bajo la filosofía de código abierto y propiedad compartida de la comunidad. Para empezar a contribuir o entender el funcionamiento técnico detallado, consulta los siguientes documentos:
+
+* 📖 **[ONBOARDING.md](ONBOARDING.md)**: Guía rápida para configurar el entorno de desarrollo local en 15 minutos, y el paso a paso para que colaboradores no técnicos (como coaches y administradores) actualicen la información del sitio web directamente desde la interfaz web de GitHub sin instalar software.
+* 🛠️ **[CONTRIBUTING.md](CONTRIBUTING.md)**: Proceso de contribución (`git workflow`), roles de colaboración (Domain Experts vs Developers) y pautas para la revisión y aprobación de Pull Requests.
+
