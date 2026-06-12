@@ -23,6 +23,7 @@ def home():
     results = load_content("results.json", [])
     coaches = load_content("coaches.json", [])
     gallery = load_content("gallery.json", [])
+    events = load_content("events.json", [])
     
     return render_template(
         "index.html",
@@ -30,7 +31,8 @@ def home():
         schedules=schedules,
         results=results,
         coaches=coaches,
-        gallery=gallery
+        gallery=gallery,
+        events=events
     )
 
 if __name__ == "__main__":

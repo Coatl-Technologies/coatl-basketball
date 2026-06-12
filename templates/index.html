@@ -31,6 +31,7 @@
                 <a href="#historia">Nuestra Historia</a>
                 <a href="#horarios">Categorías</a>
                 <a href="#resultados">Resultados</a>
+                <a href="#eventos">Eventos</a>
                 <a href="#coaches">Entrenadores</a>
                 <a href="#galeria">Galería</a>
             </nav>
@@ -170,6 +171,49 @@
                             {{ result.status }}
                         </div>
                         <p class="result-highlight">{{ result.highlight }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        <!-- Eventos Section -->
+        <section class="eventos-section" id="eventos">
+            <div class="section-container">
+                <h2 class="section-title">Próximos Eventos</h2>
+                <div class="events-grid">
+                    {% for event in events %}
+                    <div class="glass-card event-card {% if event.highlighted %}highlighted-border-orange{% endif %}">
+                        <div class="event-header">
+                            <span class="event-type {% if event.highlighted %}badge-orange{% else %}badge-cyan{% endif %}">{{ event.type }}</span>
+                            {% if event.date %}
+                            <span class="event-date badge-outline">{{ event.date }}</span>
+                            {% endif %}
+                        </div>
+                        <div class="event-body">
+                            <h3>{{ event.title }}</h3>
+                            <p class="event-description">{{ event.description }}</p>
+                            {% if event.location or event.time %}
+                            <div class="event-meta">
+                                {% if event.time %}
+                                <div class="meta-item">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <span>{{ event.time }}</span>
+                                </div>
+                                {% endif %}
+                                {% if event.location %}
+                                <div class="meta-item">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>{{ event.location }}</span>
+                                </div>
+                                {% endif %}
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% else %}
+                    <div class="glass-card no-events-card">
+                        <p>No hay eventos programados en este momento. ¡Vuelve pronto o contáctanos por WhatsApp para más información!</p>
                     </div>
                     {% endfor %}
                 </div>

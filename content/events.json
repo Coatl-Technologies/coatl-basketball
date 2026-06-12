@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Campamento de Verano Cóatl 2026",
+    "type": "Campamento",
+    "date": "15 de Julio al 10 de Agosto, 2026",
+    "time": "09:00 AM - 01:00 PM",
+    "location": "Gimnasio Cóatl (Sede GAM)",
+    "description": "Entrenamiento intensivo, desarrollo de habilidades fundamentales, acondicionamiento y competencias internas. ¡Inscripciones abiertas!",
+    "highlighted": true
+  },
+  {
+    "title": "Tryouts Categoría Juvenil",
+    "type": "Tryouts",
+    "date": "27 y 28 de Junio, 2026",
+    "time": "04:30 PM",
+    "location": "Cancha 2 (Deportivo AIC)",
+    "description": "Buscamos nuevos talentos para integrar nuestros equipos de competencia en la liga local. Categorías nacidos entre 2009 y 2012.",
+    "highlighted": false
+  }
+]
