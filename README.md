@@ -1,24 +1,40 @@
-# 🏀 Proyecto: Cóatl Baloncesto (Community Platform)
+# 🏀 Bienvenido a Cóatl Baloncesto
 
-Este proyecto propone el desarrollo de la plataforma web oficial para la comunidad de **Cóatl Baloncesto**, reenfocando el sitio actual (que se encuentra "en mantenimiento") hacia una plataforma de comunidad integrada, limpia y de alto impacto.
+Este proyecto busca convertirse en la plataforma digital oficial de la comunidad de **Cóatl Baloncesto**. 
 
----
-
-## 🎯 Motivación
-
-1. **La Fuente Oficial ante la Dispersión:** Cóatl ya cuenta con una comunidad robusta, activa y con un gran Product-Market Fit (6,700 seguidores en Facebook, Instagram dinámico, canal de YouTube con más de 1,600 suscriptores, y múltiples campamentos y retas). Sin embargo, la información operativa clave (sedes, horarios, inscripciones) está dispersa en múltiples redes sociales. **La página web debe ser la fuente oficial de verdad.**
-2. **"Show the Work" (Filosofía de Construcción):** Este desarrollo sirve como portafolio vivo y demostración de tracción para Cóatl Technologies. En lugar de platicar ideas abstractas de negocio, reactivamos la marca entregando un producto real, útil y desplegado para la comunidad que ayudó a sembrar las bases de la organización.
-3. **El Enfoque de Producto sobre Características:** Las estadísticas avanzadas y los rosters individuales son características secundarias de valor futuro. El producto inmediato que necesita la organización es el puente digital para centralizar la captación de nuevos integrantes.
+No es solamente una página web: es un esfuerzo por preservar la historia de la organización, facilitar la comunicación con jugadores y familias, y construir herramientas sencillas que ayuden al crecimiento de la comunidad.
 
 ---
 
-## 🏀 Filosofía del Proyecto
+## 🎯 Filosofía del Proyecto
 
-> **Facebook es la conversación.**
->
-> **WhatsApp es la coordinación.**
->
-> **La página web es la fuente oficial.**
+* **Comunidad antes que tecnología:** Preferimos construir algo útil y sencillo antes que una plataforma compleja que nadie use.
+* **Producto antes que infraestructura:** Ponemos el producto real en manos de los usuarios para recibir feedback rápido, iterando a partir de necesidades verdaderas.
+* **Las redes son la conversación, la web es la verdad:**
+  > *Facebook es la conversación.*
+  >
+  > *WhatsApp es la coordinación.*
+  >
+  > *La página web es la fuente oficial.*
+
+---
+
+## 🤝 ¿Cómo puedes ayudar?
+
+### 📣 Comunidad
+* Compartiendo información correcta.
+* Proponiendo mejoras prácticas.
+* Reportando errores visuales o de enlaces.
+
+### 📋 Entrenadores
+* Manteniendo los horarios de entrenamiento al día.
+* Compartiendo eventos y campamentos.
+* Reportando marcadores y resultados recientes.
+
+### 💻 Colaboradores Técnicos
+* Refinando la experiencia web y responsividad.
+* Automatizando el flujo de despliegue y datos.
+* Documentando el conocimiento del proyecto.
 
 ---
 
@@ -74,6 +90,7 @@ Para facilitar el mantenimiento sin la complejidad de bases de datos o paneles d
 
 Este proyecto está estructurado bajo la filosofía de código abierto y propiedad compartida de la comunidad. Para empezar a contribuir o entender el funcionamiento técnico detallado, consulta los siguientes documentos:
 
-* 📖 **[ONBOARDING.md](ONBOARDING.md)**: Guía rápida para configurar el entorno de desarrollo local en 15 minutos, y el paso a paso para que colaboradores no técnicos (como coaches y administradores) actualicen la información del sitio web directamente desde la interfaz web de GitHub sin instalar software.
-* 🛠️ **[CONTRIBUTING.md](CONTRIBUTING.md)**: Proceso de contribución (`git workflow`), roles de colaboración (Domain Experts vs Developers) y pautas para la revisión y aprobación de Pull Requests.
+* 📖 **[ONBOARDING.md](docs/ONBOARDING.md)**: Guía rápida para configurar el entorno de desarrollo local en 15 minutos, y el paso a paso para que colaboradores no técnicos (como coaches y administradores) actualicen la información del sitio web directamente desde la interfaz web de GitHub sin instalar software.
+* 🛠️ **[CONTRIBUTING.md](docs/CONTRIBUTING.md)**: Proceso de contribución (`git workflow`), roles de colaboración (Domain Experts vs Developers) y pautas para la revisión y aprobación de Pull Requests.
+
 

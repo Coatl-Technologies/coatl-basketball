@@ -18,7 +18,7 @@ Si eres coach, jugador, padre de familia o gestor de la comunidad, **tú eres la
   * `content/coaches.json`: Perfiles y biografías de los entrenadores.
   * `content/results.json`: Marcadores recientes y momentos clave.
   * `content/gallery.json`: Fotos y videos de los partidos y entrenamientos.
-* **Cómo hacerlo**: Puedes editar estos archivos directamente desde la página de GitHub usando la interfaz web (ver detalles en [ONBOARDING.md](file:///home/mcarvaj/src/coatl-tech/coatl-basketball/ONBOARDING.md)).
+* **Cómo hacerlo**: Puedes editar estos archivos directamente desde la página de GitHub usando la interfaz web (ver detalles en [ONBOARDING.md](ONBOARDING.md)).
 
 ### 2. Desarrolladores (Technical Contributors)
 Si quieres mejorar el diseño, la lógica o agregar funcionalidades:
@@ -39,7 +39,7 @@ Si vas a realizar cambios en el código, sigue este proceso:
    ```bash
    git checkout -b feat/nueva-seccion-eventos
    ```
-3. **Desarrollar y Probar Localmente**: Sigue la guía de configuración en [ONBOARDING.md](file:///home/mcarvaj/src/coatl-tech/coatl-basketball/ONBOARDING.md).
+3. **Desarrollar y Probar Localmente**: Sigue la guía de configuración en [ONBOARDING.md](ONBOARDING.md).
 4. **Hacer Commits Claros**: Escribe mensajes descriptivos:
    ```bash
    git commit -m "feat: agregar seccion de ubicaciones en mapa interactivo"
