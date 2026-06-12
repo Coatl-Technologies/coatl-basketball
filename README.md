@@ -24,10 +24,12 @@ Este proyecto propone el desarrollo de la plataforma web oficial para la comunid
 
 ## 📈 Estado Actual
 
-* **Fase:** `Concepto & Diseño de Comunidad`
+* **Fase:** `MVP v1 Desplegado`
+* **URL Provisional:** [coatl-basketball-383578626035.us-central1.run.app](https://coatl-basketball-383578626035.us-central1.run.app)
 * **Comunidad / Origen:** [Coatl Baloncesto en Facebook](https://www.facebook.com/CoatlBaloncesto) y [YouTube](https://www.youtube.com/channel/UC6bPwRG60eYp4u9yjP3Sikg).
 * **Dominio Objetivo:** [coatlbaloncesto.com.mx](https://www.coatlbaloncesto.com.mx)
-* **Despliegue Objetivo:** Google Cloud Run (Proyecto GCP `mx-coatl-aicondesa-workshop02`).
+* **Despliegue:** Google Cloud Run (Proyecto GCP `mx-coatl-aicondesa-workshop02`).
+
 * **Visualización de Diseño:** Generada maqueta del frontend en Stitch (Proyecto ID `18355712936606240653`).
 
 ---
