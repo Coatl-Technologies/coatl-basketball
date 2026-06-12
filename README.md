@@ -10,6 +10,7 @@ No es solamente una página web: es un esfuerzo por preservar la historia de la 
 
 * 🌐 **Sitio Web en Vivo (Producción):** [coatl-basketball-383578626035.us-central1.run.app](https://coatl-basketball-383578626035.us-central1.run.app)
 * 📖 **Portal de Documentación (GitHub Pages):** [coatl-technologies.github.io/coatl-basketball](https://coatl-technologies.github.io/coatl-basketball/)
+* 🗺️ **Tablero Kanban & Roadmap:** [coatl-technologies.github.io/coatl-basketball/roadmap.html](https://coatl-technologies.github.io/coatl-basketball/roadmap.html)
 * 📂 **Repositorio del Código:** [github.com/Coatl-Technologies/coatl-basketball](https://github.com/Coatl-Technologies/coatl-basketball)
 
 

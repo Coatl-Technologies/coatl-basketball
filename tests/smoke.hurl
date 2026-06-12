@@ -17,6 +17,7 @@ HTTP 200
 body contains "Resumen Ejecutivo"
 body contains "Onboarding"
 body contains "Colaboración"
+body contains "Roadmap"
 
 # Resumen Ejecutivo
 GET https://coatl-technologies.github.io/coatl-basketball/resumen-ejecutivo.html
@@ -38,3 +39,10 @@ HTTP 200
 [Asserts]
 body contains "Colaboración"
 body contains "Fork"
+
+# Roadmap & Kanban
+GET https://coatl-technologies.github.io/coatl-basketball/roadmap.html
+HTTP 200
+[Asserts]
+body contains "Tablero Kanban"
+body contains "Backlog"
