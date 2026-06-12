@@ -2,11 +2,12 @@
 # https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 
 # El contenido de datos del CMS modular es propiedad principal de Saúl (Domain Expert)
+# NOTA: @saul es un placeholder; debe ser reemplazado con su usuario real de GitHub.
 /content/*       @saul
 
 # El diseño visual y plantillas son propiedad técnica de Miguel (Developer)
-/templates/*     @miguel
-/static/*        @miguel
+/templates/*     @krvax
+/static/*        @krvax
 
 # La documentación y roadmaps son de responsabilidad compartida
-/docs/*          @saul @miguel
+/docs/*          @saul @krvax
