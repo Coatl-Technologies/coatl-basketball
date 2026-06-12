@@ -90,7 +90,8 @@ Para facilitar el mantenimiento sin la complejidad de bases de datos o paneles d
 
 Este proyecto está estructurado bajo la filosofía de código abierto y propiedad compartida de la comunidad. Para empezar a contribuir o entender el funcionamiento técnico detallado, consulta los siguientes documentos:
 
-* 📖 **[ONBOARDING.md](docs/ONBOARDING.md)**: Guía rápida para configurar el entorno de desarrollo local en 15 minutos, y el paso a paso para que colaboradores no técnicos (como coaches y administradores) actualicen la información del sitio web directamente desde la interfaz web de GitHub sin instalar software.
-* 🛠️ **[CONTRIBUTING.md](docs/CONTRIBUTING.md)**: Proceso de contribución (`git workflow`), roles de colaboración (Domain Experts vs Developers) y pautas para la revisión y aprobación de Pull Requests.
+* 📖 **[onboarding.md](docs/onboarding.md)**: Guía rápida para configurar el entorno de desarrollo local en 15 minutos, y el paso a paso para que colaboradores no técnicos (como coaches y administradores) actualicen la información del sitio web directamente desde la interfaz web de GitHub sin instalar software.
+* 🛠️ **[colaboracion.md](docs/colaboracion.md)**: Proceso de contribución (`git workflow`), roles de colaboración (Domain Experts vs Developers) y pautas para la revisión y aprobación de Pull Requests.
+
 
 

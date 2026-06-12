@@ -9,8 +9,9 @@ Este portal centraliza la visión, guías e información del desarrollo de nuest
 ## 📖 Contenido Disponible
 
 * 🏀 **[Resumen Ejecutivo (Propuesta de Negocio)](resumen-ejecutivo.html)**: Documento estratégico y financiero diseñado para el staff y directores de la organización (sin tecnicismos).
-* 📖 **[Guía de Inicio (Onboarding)](ONBOARDING.html)**: Pasos para configurar tu entorno de desarrollo en 15 minutos, y la guía para que colaboradores editen el contenido sin programar.
-* 🛠️ **[Guía de Contribución (Contributing)](CONTRIBUTING.html)**: Proceso de desarrollo (`git workflow`), roles de colaboración y políticas de fusión.
+* 📖 **[Guía de Inicio (Onboarding)](onboarding.html)**: Pasos para configurar tu entorno de desarrollo en 15 minutos, y la guía para que colaboradores editen el contenido sin programar.
+* 🛠️ **[Guía de Contribución (Colaboración)](colaboracion.html)**: Proceso de desarrollo (`git workflow`), roles de colaboración y políticas de fusión.
+
 * 🚀 **[Sitio Web en Vivo (Cloud Run)](https://coatl-basketball-383578626035.us-central1.run.app)**: Enlace directo al prototipo de la aplicación desplegada y en producción.
 
 ---
