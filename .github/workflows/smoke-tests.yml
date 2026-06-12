@@ -1,0 +1,32 @@
+name: Smoke and Validation Tests
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:  # Manual trigger
+  # Run automatically after the deploy workflow finishes
+  workflow_run:
+    workflows: ["Deploy Coatl Baloncesto to Cloud Run"]
+    types:
+      - completed
+
+jobs:
+  smoke-test:
+    name: Run Hurl Smoke Tests
+    runs-on: ubuntu-latest
+    
+    # Only run the workflow_run job if the preceding build succeeded
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install Hurl
+        run: |
+          curl -LO https://github.com/Orange-OpenSource/hurl/releases/download/4.3.0/hurl_4.3.0_amd64.deb
+          sudo dpkg -i hurl_4.3.0_amd64.deb
+
+      - name: Run Smoke Tests
+        run: |
+          hurl --color tests/smoke.hurl
