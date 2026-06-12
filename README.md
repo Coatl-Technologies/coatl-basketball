@@ -6,6 +6,15 @@ No es solamente una página web: es un esfuerzo por preservar la historia de la 
 
 ---
 
+## 🚀 Enlaces Rápidos (Quick Links)
+
+* 🌐 **Sitio Web en Vivo (Producción):** [coatl-basketball-383578626035.us-central1.run.app](https://coatl-basketball-383578626035.us-central1.run.app)
+* 📖 **Portal de Documentación (GitHub Pages):** [coatl-technologies.github.io/coatl-basketball](https://coatl-technologies.github.io/coatl-basketball/)
+* 📂 **Repositorio del Código:** [github.com/Coatl-Technologies/coatl-basketball](https://github.com/Coatl-Technologies/coatl-basketball)
+
+
+---
+
 ## 🎯 Filosofía del Proyecto
 
 * **Comunidad antes que tecnología:** Preferimos construir algo útil y sencillo antes que una plataforma compleja que nadie use.
